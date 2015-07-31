@@ -11,7 +11,7 @@
 (require 'pg-autotest)
 
 (eval-when (compile)
-  (require 'proof-site)
+  (require 'proof-general)
   (proof-ready-for-assistant 'coq)
   (defvar coq-compile-before-require nil))
 
